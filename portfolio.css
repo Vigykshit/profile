@@ -1,0 +1,146 @@
+body{
+    padding: 1%;
+  background-color: rgb(93, 98, 49);
+    background-image: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=600);
+    /* background-repeat: no-repeat; */
+    background-size: 100%;
+}
+.logo{
+    height: 50px;
+}
+.xpel{
+    height:50px;
+    align-items: center;
+}
+button{
+    height: 35px;
+    margin-top: -5%;
+  
+   
+    
+}
+
+#fullview{
+    /* height: 500px; */
+    width: 100%;
+    /* border: 4px red double; */
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: nowrap;
+    opacity: .8;
+    /* background-image: url(https://wallpaperaccess.com/full/7270362.gif); */
+    /* background-repeat: no-repeat; */
+    /* (https://cdn.wallpapersafari.com/35/51/bq1FrL.gif) */
+   /* background-size: 100% 500px; */
+   box-shadow: 1px 1px 1px 1px gray;
+}
+.photo{
+    height: 300px;
+    width: 300px;
+    /* border: 4px double black; */
+    margin-left: 10%;
+    margin-top: 3%;
+   
+  
+}
+.me{
+    height: 300px;
+    width: 700px;
+    /* border: 4px double black; */
+    margin-left: 5%;
+    margin-top: 4%;
+    padding: 1%;
+
+}
+.photo >img{
+    height: 300px;
+    width: 280px;
+
+}
+p{
+    font-size: 20px;
+}
+u{
+    font-weight:bold;
+}
+.double{
+    height: 500px;
+    width: 100%;
+   /* border: 2px solid rgb(172, 101, 101); */
+   display: flex;
+   flex-wrap: nowrap;
+   padding: 2%;
+   box-shadow: 1px 1px 1px 1px gray;
+}
+#Skills{
+height: 400px;
+width: 44%;
+/* border: 2px dotted black; */
+ font-size: larger;
+ border-right: 1px solid black;
+ box-shadow: 1px 1px 1px 1px gray;
+}
+
+#Location{
+    height: 400px;
+    width: 35%;
+    /* border: 2px dotted black; */
+    margin-left: 12%;
+    box-shadow: 1px 1px 1px  gray;
+    
+}
+.pro{
+    height: 500px;
+    width: 100%;
+   /* border: 2px solid rgb(172, 101, 101); */
+   box-shadow: 1px 1px 1px 1px gray;
+  
+ 
+  
+}
+.pro1{
+    height: 450px;
+    width: 98%;
+    /* border: 2px solid green; */
+      display: flex; 
+   flex-wrap: nowrap;
+   position: absolute; 
+   box-shadow: 1px 1px 1px 1px gray;
+  
+}
+
+.project1{
+    height: 400px;
+    width: 400px;
+    /* border: 2px dotted rgb(115, 55, 55); */
+    /* background-image: url("/New folder/project1.png");
+    background-repeat: no-repeat;
+   background-size: 100% 400px; */
+  border-radius: 5%;
+  margin-top: 2%;
+  margin-left: 4.7%;
+  background: transparent;
+  box-shadow: 1px 1px 1px 1px gray;
+}
+
+.sclass{
+    height: 224px;
+    border-radius: 5%;
+}
+.one{
+    font-size: 40px;
+    text-align: center;
+    /* margin-top: 30%; */
+    color: rgb(234, 121, 76);
+}
+.one1{
+    margin-left: 28%;
+}
+.projecttwo{
+    display: grid;
+}
+.pclass{
+    height: 120px;
+   
+}
+ 
