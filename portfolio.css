@@ -7,6 +7,7 @@ body{
 }
 .logo{
     height: 50px;
+    box-shadow: 1px 1px 1px gray;
 }
 .xpel{
     height:50px;
@@ -21,7 +22,7 @@ button{
 }
 
 #fullview{
-    /* height: 500px; */
+    height: 365px;
     width: 100%;
     /* border: 4px red double; */
     margin-top: 5%;
@@ -36,10 +37,11 @@ button{
 }
 .photo{
     height: 300px;
-    width: 300px;
+    width: 280px;
     /* border: 4px double black; */
     margin-left: 10%;
-    margin-top: 3%;
+    margin-top: 2%;
+    box-shadow: 5px 5px 5px gray;
    
   
 }
@@ -47,10 +49,17 @@ button{
     height: 300px;
     width: 700px;
     /* border: 4px double black; */
-    margin-left: 5%;
-    margin-top: 4%;
+    margin-left: 7%;
+    margin-top: 2%;
     padding: 1%;
 
+}
+.me >p{
+    margin-top: 5%;
+}
+
+h2{
+box-shadow: 1px 0px 1px  gray;
 }
 .photo >img{
     height: 300px;
@@ -77,8 +86,11 @@ height: 400px;
 width: 44%;
 /* border: 2px dotted black; */
  font-size: larger;
- border-right: 1px solid black;
+ /* border-right: 1px solid black; */
  box-shadow: 1px 1px 1px 1px gray;
+}
+#Skills >p{
+    margin-top: 10%;
 }
 
 #Location{
@@ -86,7 +98,7 @@ width: 44%;
     width: 35%;
     /* border: 2px dotted black; */
     margin-left: 12%;
-    box-shadow: 1px 1px 1px  gray;
+    box-shadow: 1px 1px 1px 1px gray;
     
 }
 .pro{
@@ -105,7 +117,7 @@ width: 44%;
       display: flex; 
    flex-wrap: nowrap;
    position: absolute; 
-   box-shadow: 1px 1px 1px 1px gray;
+   /* box-shadow: 1px 1px 1px 1px gray; */
   
 }
 
@@ -144,3 +156,10 @@ width: 44%;
    
 }
  
+h2:hover{
+    color: rgb(139, 9, 50);
+    font-size:40px;
+}
+u:hover{
+    font-family:  'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
+}
