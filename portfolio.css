@@ -164,3 +164,161 @@ u:hover{
     font-family:  'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
 }
 
+
+
+ @media screen and (max-width:900px){
+    body{
+        padding: 1%;
+        background-image: url(https://img.freepik.com/free-vector/mosaic-patterned-background_53876-91674.jpg?size=626&ext=jpg);
+    }
+    #fullview{
+        width: 140%;
+        /* box-shadow: none; */
+    }
+    .double{
+        width: 140%;
+    }
+    #Location{
+        height: 400px;
+        /* padding: 1%; */
+        width: 46%;
+        padding-left: .2%;
+    }
+    .pro{
+        width: 140%;
+    }
+    .extra1{
+        height: 200px;
+        margin-top: -1%;
+    }
+    hr {
+        background:none;
+        clear:both;
+        float:none;
+        width:100%;
+        height:1px;
+        border:none;
+        margin:-1px 0;
+    }
+    #pro{
+        width: 140%;
+    }
+    footer{
+        width: 140%;
+    }
+    .sclass{
+        width: 330px;
+    }
+    .pclass{
+        width: 330px;
+    }
+    .one1{
+        margin-left: 0;
+    }
+} 
+
+@media screen and (max-width:400px){
+    body{
+        width: auto;
+        /* background-image: url(https://img.freepik.com/premium-vector/vector-seamless-pink-grey-pattern-circles-squares-dots_107335-331.jpg?size=626&ext=jpg); */
+        background-image: url(https://img.freepik.com/free-vector/realistic-paper-style-abstract-ornamental-background_79603-2432.jpg?w=2000);
+    }
+    .xpel{
+        height: 70px;
+    }
+   .logo{
+    /* display: none; */
+   margin-left: 780px;
+   }
+    button{
+        height: 40px;
+        margin-top: -10%;
+      
+    }
+    .bars{
+        margin-right: 5%;
+    }
+    .photo{
+        box-shadow: none;
+    }
+    .photo >img{
+        height: 200px;
+        width: 180px;
+        margin-top: 35%;
+        /* box-shadow: none; */
+    }
+    #fullview{
+        width: 250%;
+        /* box-shadow: none; */
+    }
+    .me{
+        height: 300px;
+        width: 700px;
+        /* border: 4px double black; */
+        margin-left: 7%;
+        margin-top: 4%;
+        padding: 1%;
+    }   
+    .double{
+        height: 500px;
+        width: 250%;
+       /* border: 2px solid rgb(172, 101, 101); */
+       display: flex;
+       flex-wrap: nowrap;
+       padding: 2%;
+       box-shadow: none
+    } 
+    #Location{
+        height: 400px;
+        width: 75%;
+        /* border: 2px dotted black; */
+        margin-left: 12%;
+        box-shadow: 1px 1px 1px 1px gray;
+       padding: 1%;
+    }
+    .pro{
+        width: 250%;
+        height: 750px;
+    }  
+    .extra1{
+        height: 310px;
+        width: 300px;
+        flex-wrap: wrap;
+    } 
+    .sclass{
+        width: 200px;
+        height: 100px;
+    }
+    .pclass{
+        height: 30px;
+    }
+    .one1{
+        margin-left: 2%;
+    }
+    .pro1{
+        display: contents;
+       
+    }
+    .project1{
+        width: 90%;
+        height:215px;
+    }
+    
+       
+      
+   
+    .one{
+        font-size: 30px;
+    }
+    #pro{
+        width: 250%;
+    }
+    footer{
+        width: 250%;
+    }
+    .container-fluid > button{
+          margin-top: 0%;
+          height: 40px;
+          margin-right: 3%;
+    }
+}
