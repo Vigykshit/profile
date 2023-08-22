@@ -169,13 +169,14 @@ u:hover{
 
 
 
- @media screen and (max-width:900px){
+ @media screen and (max-width:850px){
     body{
         padding: 1%;
         background-image: url(https://img.freepik.com/free-vector/mosaic-patterned-background_53876-91674.jpg?size=626&ext=jpg);
     }
     #fullview{
         width: 140%;
+        height: 500px;
         /* box-shadow: none; */
     }
     .double{
@@ -193,6 +194,9 @@ u:hover{
     .extra1{
         height: 200px;
         margin-top: -1%;
+    }
+    iframe{
+        width: 480px;
     }
     hr {
         background:none;
@@ -251,7 +255,9 @@ u:hover{
         /* box-shadow: none; */
     }
     #fullview{
+        height: 500px;
         width: 250%;
+        margin-top: 8%;
         /* box-shadow: none; */
     }
     .me{
@@ -271,21 +277,27 @@ u:hover{
        padding: 2%;
        box-shadow: none
     } 
+    #Skills{
+        width: 400px;
+    }
     #Location{
         height: 400px;
-        width: 75%;
+        width: 500px;
         /* border: 2px dotted black; */
         margin-left: 12%;
         box-shadow: 1px 1px 1px 1px gray;
        padding: 1%;
+    }
+   iframe{
+        width: 420px;
     }
     .pro{
         width: 250%;
         height: 750px;
     }  
     .extra1{
-        height: 310px;
-        width: 300px;
+        height: 280px;
+        width: 250px;
         flex-wrap: wrap;
     } 
     .sclass{
