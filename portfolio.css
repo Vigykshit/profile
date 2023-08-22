@@ -175,7 +175,7 @@ u:hover{
         background-image: url(https://img.freepik.com/free-vector/mosaic-patterned-background_53876-91674.jpg?size=626&ext=jpg);
     }
     #fullview{
-        width: 140%;
+        width: 150%;
         height: 500px;
         /* box-shadow: none; */
     }
@@ -189,7 +189,7 @@ u:hover{
         padding-left: .2%;
     }
     .pro{
-        width: 140%;
+        width: 150%;
     }
     .extra1{
         height: 200px;
@@ -208,7 +208,7 @@ u:hover{
         margin:-1px 0;
     }
     #pro{
-        width: 140%;
+        width: 150%;
     }
     footer{
         width: 140%;
