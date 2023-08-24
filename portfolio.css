@@ -138,6 +138,9 @@ width: 44%;
 map{
     padding-left:2% ;
 }
+iframe{
+    width: 600px;
+}
 .sclass{
     height: 224px;
     border-radius: 5%;
