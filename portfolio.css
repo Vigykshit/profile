@@ -7,7 +7,7 @@ body{
     background-image: url(https://img.freepik.com/premium-vector/background-zeros-ones-white-gray-colors_444390-1661.jpg?size=626&ext=jpg&ga=GA1.2.2100182947.1692642663&semt=ais);
 }
 .logo{
-    height: 50px;
+    height: 48px;
     box-shadow: 1px 1px 1px gray;
 }
 .xpel{
@@ -17,6 +17,7 @@ body{
 button{
     height: 35px;
     margin-top: -5%;
+    text-align: center;
   
    
     
@@ -135,11 +136,9 @@ width: 44%;
   background: transparent;
   box-shadow: 1px 1px 1px 1px gray;
 }
-map{
-    padding-left:2% ;
-}
+
 iframe{
-    width: 600px;
+    width: 100%;
 }
 .sclass{
     height: 224px;
@@ -151,9 +150,7 @@ iframe{
     /* margin-top: 30%; */
     color: rgb(234, 121, 76);
 }
-.one1{
-    /* margin-left: 28%; */
-}
+
 .projecttwo{
     display: grid;
 }
@@ -168,6 +165,14 @@ h2:hover{
 }
 u:hover{
     font-family:  'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
+}
+.logo:hover{
+    height: 100px;
+    margin-top: 25px;
+}
+button:hover{
+    border: 5px solid #fff;
+    text-shadow: rgb(0, 0, 0);
 }
 
 
