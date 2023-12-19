@@ -7,6 +7,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <link rel="stylesheet" href=
         "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+        <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.3.1/dist/aos.css" />
         <title>My Portfolio</title>
         <link href="./New folder/bhanu.png" rel="icon">
         <link href="portfolio.css" rel="stylesheet">
@@ -26,17 +27,18 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">
                    <a href="#fullview"><button class = "btn btn-info"> About</button></a>
-                   <a href="#Skills"><button class = "btn btn-info"> Skills</button></a>
-                   <a href="#Location"><button class = "btn btn-info">Location</button></a>
-                   <a href="#Hobbies"><button class = "btn btn-info">Hobbies</button></a>
-                   <a href="#Projects"><button class = "btn btn-info">Projects</button></a>
+                   <a href="#Skills"><button class = "btn btn-success"> Skills</button></a>
+                   <a href="#Location"><button class = "btn btn-danger">Location</button></a>
+                   <a href="#Hobbies"><button class = "btn btn-primary">Hobbies</button></a>
+                   <a href="#Projects"><button class = "btn btn-success">Projects</button></a>
                    <a href="#pro"><button class = "btn btn-info">Contact Me</button></a>
                 </a></li></ul></div></div></nav><hr/>
                 <div id="fullview">
                     <div class ="photo">
-                        <img src ="./New folder/katoch.png" alt =VKatoch>
+                        <img src ="./New folder/katoch.png" alt =VKatoch data-aos="fade-right"data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
                     </div>
-                    <div class="me"> 
+                    <div class="me" data-aos="fade-up"> 
                         <center>
                             <h2>||<u>About</u>||</h2>
                          </center>
@@ -52,11 +54,12 @@
                     
                 </div>
            <hr/>
-          <div class="double">
-           <div id="Skills">
+          <div class="double" >
+           <div id="Skills" data-aos="fade-right"
+           data-aos-anchor-placement="center-bottom">
             <center>
               <h2>
-                  ||<u>Skills</u>||
+                  ||<u>Skills </u>||
               </h2>
             </center>
            <p>
@@ -69,7 +72,8 @@
               </ul>
            </p>
            </div> 
-           <div id="Location">
+           <div id="Location" data-aos="fade-left"
+           data-aos-anchor-placement="center-bottom">
             <center>
                 <h2>
                     ||<u>Location</u>||
@@ -83,58 +87,120 @@
            </div> 
            <hr/>
            <div class="pro">
-            <div id="Hobbies">
+            <div id="Hobbies" data-aos="fade-up">
                 <center>
                     <h2>
                         ||<u>Hobbies</u>||
                     </h2>
                     <br/>
                     <br/>
-                    <img src="./New folder/hobby6.jpg" alt="badminton" title="Badminton" length="300" width="300" class="extra1">
-                    <img src="./New folder/hobby3.jpg" alt="trekking" title="Trekking" length="300" width="300" class="extra1">
-                    <img src="./New folder/hobby5.jpeg" alt="chess" title="Chess" length="500" width="300" class="extra1">
-                    <img src="./New folder/hobby8.jpg" alt="billiards" title="Snooker" length="300" width="300" class="extra1">
+                    <img src="./New folder/hobby6.jpg" alt="badminton" title="Badminton" length="300" width="300" class="extra1" data-aos="fade-up"
+                    data-aos-anchor-placement="center-bottom">
+                    <img src="./New folder/hobby3.jpg" alt="trekking" title="Trekking" length="300" width="300" class="extra1" data-aos="fade-down"
+                    data-aos-anchor-placement="center-bottom">
+                    <img src="./New folder/hobby5.jpeg" alt="chess" title="Chess" length="500" width="300" class="extra1" data-aos="fade-up"
+                    data-aos-anchor-placement="center-bottom">
+                    <img src="./New folder/hobby8.jpg" alt="billiards" title="Snooker" length="300" width="300" class="extra1" data-aos="fade-down"
+                    data-aos-anchor-placement="center-bottom">
                 </center>
 
                 </div>
            </div>
            <hr/>
            <div class="pro">
-            <div id="Projects">
+            <div id="Projects"
+            >
             <center>
                 <h2>
                     ||<u>ProJects</u>||
                 </h2>
             </center>
-            <div class="pro1">
-           <div class="project1">
-          <center> <h2 class="one">Project 1</h2>
-            <p class="one1"><u>Amazon Clone App</u></p>
+            <div class="pro1" >
+           <div class="project1" data-aos="fade-right"
+           data-aos-anchor-placement="center-bottom">
+           <center> 
             <a href="https://amazonnext.netlify.app/">
+            <p class="one1" data-aos="fade-left"><u>Amazon Clone App</u></p>
+           
             <img src="./New folder/project1.png" alt="project" class="sclass"></a>
            </center></div>
-           <div class="project1">
+           <div class="project1" data-aos="fade-up"
+           data-aos-anchor-placement="center-bottom">
             <center>
-            <h2 class="one">Project 2</h2>
-            <p class="one1"><u>Zomato Clone App</u></p>
-            <a href="https://vigykshit.github.io/project1_Zomato/">
+              <a href="https://vigykshit.github.io/project1_Zomato/">
+            <p class="one1" data-aos="fade-down"><u>Zomato Clone App</u></p>
+            
             <img src="./New folder/project2.png" alt="project" class="sclass"></a>
           </center> </div>
-           <div class="project1">
-            <h2 class="one">Other</h2>
-            <div class="projecttwo">
-
-           
-          <center><p><u>Calculater</u></p>
-            <a href="https://vigykshit.github.io/Calculatort/">
-            <img src="./New folder/project3.png" alt="project" class="pclass"></a>
-          
-           <p><u>Dark/Lightmode</u></p>
-           <a href="https://vigykshit.github.io/Darklight/">
-              <img src="./New folder/project4.png" alt="project" class="pclass"></a>
-         </center>
-        </div>
+           <div class="project1" data-aos="fade-left"
+           data-aos-anchor-placement="center-bottom">
+            <center>
+              <a href="https://vigykshit.github.io/khredobecho/">
+              <p class="one1" data-aos="fade-right"><u>KB.com</u></p>
+              
+              <img src="./New folder/bk.com.png" alt="project" class="sclass"></a>
+            </center>
+            </div>
+            
+             <div class="project1" data-aos="fade-right"
+             data-aos-anchor-placement="center-up">
+              <center>
+                <a href="https://vigykshit.github.io/OCTANET_NOVEMBER/">
+                <p class="one1" data-aos="fade-left"><u>Landing Page</u></p>
+                
+                <img src="./New folder/musk.png" alt="project" class="sclass"></a>
+              </center>
+              </div>
+              
+            <div class="project1" data-aos="fade-down"
+            data-aos-anchor-placement="center-bottom">
+            <center>
+              <a href="./other.html">
+                <p class="one1" data-aos="fade-up"><u>Others...</u></p>
+                <img src="https://www.clker.com/cliparts/R/a/k/L/l/J/enter-md.png" alt="project" class="sclass">
+              </a></center>
+            </div>
+            <!-- <div class="project1" data-aos="fade-left"
+           data-aos-anchor-placement="center-bottom">
+            <center>
+              <a href="https://vigykshit.github.io/khredobecho/">
+              <p class="one1" data-aos="fade-right"><u>KB.com</u></p>
+              
+              <img src="./New folder/bk.com.png" alt="project" class="sclass"></a>
+            </center>
+            </div> -->
          </div>
+         <!-- Extra -->
+
+         <!-- <div class="project1">
+          <h2 class="one">Other</h2>
+          <div class="projecttwo">
+
+         
+        <center><p><u>Calculater</u></p>
+          <a href="https://vigykshit.github.io/Calculatort/">
+          <img src="./New folder/project3.png" alt="project" class="pclass"></a>
+        
+         <p><u>Dark/Lightmode</u></p>
+         <a href="https://vigykshit.github.io/Darklight/">
+            <img src="./New folder/project4.png" alt="project" class="pclass"></a>
+       </center>
+       
+      </div>
+       </div>
+       
+     <div class="project1">
+      <center> 
+        <p class="one1"><u>Amazon Clone App</u></p>
+        <a href="https://amazonnext.netlify.app/">
+        <img src="./New folder/project1.png" alt="project" class="sclass"></a>
+       </center></div> -->
+
+         <!-- finish -->
+        
+         <!-- <a href="#" >
+         <h2  >Other's...</h2></a>
+          -->
            </div>
         </div>
         </div>
@@ -157,4 +223,6 @@
                 <a href="#fullview">Back To Top</a>
             </center>
          </footer> 
-</body>
+         <script src="https://cdn.rawgit.com/michalsnik/aos/2.3.1/dist/aos.js"></script>
+         <script src="portfolio.js"></script>
+        </body>

@@ -4,7 +4,10 @@ body{
     /* background-image: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=600); */
     /* background-repeat: no-repeat; */
     background-size: 100%;
-    background-image: url(https://img.freepik.com/premium-vector/background-zeros-ones-white-gray-colors_444390-1661.jpg?size=626&ext=jpg&ga=GA1.2.2100182947.1692642663&semt=ais);
+    background-image: url("https://i.ibb.co/KygBSpf/1064756-7468.jpg");
+}
+a{
+    text-decoration: none;
 }
 .logo{
     height: 48px;
@@ -18,7 +21,7 @@ button{
     height: 35px;
     margin-top: -5%;
     text-align: center;
-  
+   
    
     
 }
@@ -115,22 +118,23 @@ width: 44%;
 .pro1{
     height: 450px;
     width: 98%;
-    /* border: 2px solid green; */
+    border: 2px solid green;
       display: flex; 
-   flex-wrap: nowrap;
-   position: absolute; 
+   flex-wrap: wrap;
+   /* align-items: center; */
+   /* position: absolute;  */
    /* box-shadow: 1px 1px 1px 1px gray; */
   
 }
 
 .project1{
-    height: 400px;
-    width: 450px;
+    height: 150px;
+    width: 370px;
     /* border: 2px dotted rgb(115, 55, 55); */
     /* background-image: url("/New folder/project1.png");
     background-repeat: no-repeat;
    background-size: 100% 400px; */
-  border-radius: 5%;
+  /* border-radius: 5%; */
   margin-top: 2%;
   margin-left: 6%;
   background: transparent;
@@ -141,14 +145,23 @@ iframe{
     width: 100%;
 }
 .sclass{
-    height: 224px;
+    height: 100px;
     border-radius: 5%;
+    /* width: 100%; */
 }
+/* .oth{
+    margin-top: 20%;
+    margin-left:8%;
+    color: black;
+} */
 .one{
     font-size: 40px;
     text-align: center;
     /* margin-top: 30%; */
     color: rgb(234, 121, 76);
+}
+.one1{
+    color:black ;
 }
 
 .projecttwo{
@@ -174,7 +187,46 @@ button:hover{
     border: 5px solid #fff;
     text-shadow: rgb(0, 0, 0);
 }
+.a{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 20px ;
+}
+.a1{
+    /* border: 2px red solid; */
+    margin: 20px 20px;
+    height: 300px;
+    width: 300px;
+    box-shadow: 2px 2px 2px 2px gray;
 
+}
+
+@keyframes dance {
+    0%{
+        transform: rotate(-5deg);
+    }
+    25%{
+        transform: rotate(0deg);
+    }
+    40%{
+        transform: scale(1.1);
+    }
+    50%{
+        transform: rotate(5deg);
+    }
+    75%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-5deg);
+    }
+}
+.a1:hover{
+    transform: scale(1.1);
+     /* transform: skewX(30deg); */
+     /* transform: rotate(180deg); */
+     /* transform: translate(180px, 200px); */
+ }
 
 
  @media screen and (max-width:850px){
