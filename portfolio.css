@@ -50,6 +50,11 @@ button{
    
   
 }
+.back{
+    color: black;
+    font-size:medium;
+    font-weight: 600;
+}
 .me{
     height: 300px;
     width: 950px;
@@ -163,7 +168,9 @@ iframe{
 .one1{
     color:black ;
 }
-
+.btn{
+    color: #fff;
+}
 .projecttwo{
     display: grid;
 }
@@ -396,4 +403,20 @@ button:hover{
           height: 40px;
           margin-right: 3%;
     }
+}
+.aa4:hover{
+    height:90px;
+    width: 90px;
+}
+.aa3:hover{
+    height:90px;
+    width: 90px;
+}
+.aa2:hover{
+    height:90px;
+    width: 90px;
+}
+.aa1:hover{
+    height:90px;
+    width: 90px;
 }
