@@ -79,8 +79,34 @@ nav a {
 }  
 
 .hero-content {  
-    max-width: 600px;  
-}  
+    max-width: 600px; 
+    /* background-position: 0; */
+    /* font-weight: 700; */
+  /* text-align: center; */
+  /* font-size: 1.5rem; */
+  /* font-family: Hack, sans-serif; */
+  /* text-transform: uppercase; */
+  /* background: linear-gradient(90deg, #ffffff, #0b1523, #ffffff); */
+  /* letter-spacing: 5px; */
+  /* -webkit-background-clip: text; */
+  /* background-clip: text; */
+  /* -webkit-text-fill-color: transparent; */
+  /* background-repeat: no-repeat; */
+  /* background-size: 80%; */
+  /* animation: shine 20s linear infinite; */
+  /* position: relative; */
+}
+
+/* @keyframes shine {
+  0% {
+    background-position-x: -500%;
+  }
+  100% {
+    background-position-x: 500%;
+  }
+} */
+
+ 
 
 .hero h1 {  
     font-size: 3em;  
@@ -95,7 +121,7 @@ nav a {
 .btn {  
     line-height: 4;
  
-    color: #121212;  
+    color: #ffffff;  
     padding: 10px 20px;  
     text-decoration: none;  
     border-radius: 5px;  
@@ -148,7 +174,7 @@ nav a {
     /* background-color: #313131; */
     /* opacity: .5; */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   font-size: 2rem;
+   font-size: 1.6rem;
    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */  
     backdrop-filter: blur(10px); /* Blurs the background */  
     border-radius: 10px; /* Optional: rounded corners */  
@@ -244,7 +270,7 @@ h2 {
     border-radius: 10px; /* Optional: rounded corners */  
     padding: 20px; /* Optional: padding */  
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5); /* Optional: shadow effect */  
-    padding: 20px;  
+    /* padding: 20px;   */
     /* border-radius: 5px;   */
     text-align: center;
     flex: 1;
@@ -300,14 +326,103 @@ h2 {
     /* border-radius: 10px; */
 }
 
-@media screen and (max-width: 600px) {  
+ @media screen and (max-width: 600px) {  
     .navbar ul {  
-        flex-direction: column; /* Stack items vertically */  
-    }  
-}
+       font-size: 0.7rem;
+       /* padding: 0%; */
+       margin-left: -250px;
+       align-items: center; 
+}  
+} 
 .glow:hover{
     font-size: 30px;
 }
 .socials img:hover{
     width: 40px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    .aboutme  {
+        font-size: .7rem;
+    }
+    .skill {
+        padding: 5px;
+    }
+    .skills-container {
+        padding: 0;
+    }
+    .navbar ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    .portfolio-item img{
+        width: 90px;
+    }
+    section{
+        padding: 15px;
+    }
+    .hero-content{
+        margin-top: 300px;
+        font-size: .8rem;
+        margin-left: 30px;
+    }
+
+    .skills-row, .portfolio-item {
+        flex: 1 1 45%;
+    }
+}
+
+@media screen and (max-width: 480px) {  
+    .navbar ul {  
+       font-size: 0.9rem;
+       /* padding: 0%; */
+       margin-left: -290px;
+       /* align-items: center;  */
+}  
+}
+@media screen and (max-width: 480px) {
+    .hero h1 {
+        font-size: 2em;
+    }
+    section{
+        padding: 15px;
+    }
+h2{
+    font-size: 1.5rem;
+
+}
+.aboutme  {
+    font-size: .7rem;
+    padding: 10px 40px;
+}
+.skill {
+    padding: 5px;
+}
+.skills-container {
+    padding: 0;
+}
+.portfolio-item img{
+    width: 90px;
+}
+.hero-content{
+    margin-top: 300px;
+    font-size: .8rem;
+    margin-left: 30px;
+}
+
+    .hero p {
+        font-size: 1em;
+    }
+
+    .skills-row, .portfolio-item {
+        flex: 1 1 100%;
+    }
 }
