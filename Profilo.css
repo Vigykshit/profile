@@ -1,0 +1,313 @@
+* {  
+    box-sizing: border-box;  
+}  
+
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+    /* background-color: #121212;   */
+    background-image: url('images/cracked-black-wooden-textured-background.jpg');
+    color: #ffffff; 
+    background-attachment: fixed;  
+    background-size: cover; /* Optional: Makes the background cover the entire area */  
+    background-position: center; /* Optional: Centers the background image */  
+
+    /* background:scroll;  */
+}  
+
+header {  
+    background-color: #000000;
+    /* opacity: 0.5; */
+    background: transparent;  
+    padding: 20px 0; 
+ 
+     
+}  
+
+.container {  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+    max-width: 1200px;  
+    margin: 0 auto;  
+    padding: 0 300px;  
+}  
+
+ 
+.navbar{
+    font-size: 1.5em;
+    font-weight: 800;
+    position: fixed;
+    margin-top: 50px;
+}
+
+nav ul {  
+    list-style: none;  
+    display: flex;  
+    gap: 20px;  
+}  
+
+nav a {  
+    color: #ffffff;  
+    text-decoration: none;  
+}  
+
+.hero {  
+    background-image: url("images/Idea\ \(33\).png");
+    background-size: contain; /* This makes the image cover the entire background */  
+    background-position: right; /* This centers the image */  
+    background-repeat: no-repeat;
+    margin-top: 60px;
+    width: 70%;
+    height: 500px;
+    display: flex;  
+    align-items: center;  
+    justify-content: space-between;  
+    padding: 100px 120px ;  
+    background-color: #000000;
+  /* opacity: .9; */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */  
+    backdrop-filter: blur(10px); /* Blurs the background */  
+    border-radius: 10px; /* Optional: rounded corners */  
+    padding: 20px; /* Optional: padding */  
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5); /* Optional: shadow effect */  
+    /* background: transparent; */
+    box-shadow: inset 0px 0px 10px 10px rgb(0, 0, 0);
+    border-radius: 15px;
+   
+}  
+
+.hero-content {  
+    max-width: 600px;  
+}  
+
+.hero h1 {  
+    font-size: 3em;  
+    margin: 0;  
+}  
+
+.hero p {  
+    font-size: 1.5em;  
+    margin: 10px 0;  
+}  
+
+.btn {  
+    line-height: 4;
+ 
+    color: #121212;  
+    padding: 10px 20px;  
+    text-decoration: none;  
+    border-radius: 5px;  
+}  
+         
+.btn {
+    background-image: linear-gradient(to right, #000000 0%, #434343  51%, #000000  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    /* text-transform: uppercase; */
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 10px #eee;
+    border-radius: 10px;
+    /* display: block; */
+  }
+
+  .btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+  
+
+/* .glow {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+} */
+
+
+.hero-image img {  
+    width: 20px;  
+    border-radius: 10px; 
+    display: flex;
+
+    /* padding: 10px; */
+  /* opacity: 0; */
+    /* margin-top: 50px; */
+    /* background-color: #fff; */
+    /* box-shadow: inset 4px 4px 8px 2px rgb(56, 56, 56); */
+     
+}  
+.aboutme{
+    padding: 20px 100px;
+    /* background-color: #313131; */
+    /* opacity: .5; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 2rem;
+   background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */  
+    backdrop-filter: blur(10px); /* Blurs the background */  
+    border-radius: 10px; /* Optional: rounded corners */  
+    /* padding: 20px; Optional: padding   */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5); /* Optional: shadow effect */  
+}
+
+section {  
+    padding: 60px 20px;  
+    text-align: center;  
+}  
+
+.portfolio-container {  
+    display: flex;  
+    justify-content: center;  
+    gap: 20px;  
+}  
+
+.portfolio-item img {  
+    width: 300px;  
+    border-radius: 10px;  
+}  
+
+.socials a {  
+    margin: 0 10px;  
+    color: #ffffff;  
+    text-decoration: none;  
+} 
+.socials img {  
+    width: 40px;  
+    height: auto;  
+    filter: invert(1);
+}
+
+.skills-container{
+    padding: 20px 150px;
+}
+.skill img{
+   width: 100px;
+   /* height: 40px; */
+}
+footer {  
+    text-align: center;  
+    padding: 20px 0;  
+    background-color: #1a1a1a;
+    opacity: 0.7;  
+}
+
+.skills-container, .portfolio-container {  
+    display: flex;  
+    flex-wrap: wrap;  
+    gap: 20px;  
+}  
+
+.skill, .portfolio-item, .experience-item {  
+    /* background-color: #848383;   */
+    padding: 10px;  
+    border-radius: 5px;  
+    flex: 1 1 calc(30% - 10px);
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */  
+    backdrop-filter: blur(10px); /* Blurs the background */  
+    border-radius: 10px; /* Optional: rounded corners */  
+    padding: 20px; /* Optional: padding */  
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5); /* Optional: shadow effect */  
+   /* border: 5px Solid #555454; */
+    text-align: center;
+    align-items: center;  
+}  
+h2 {  
+    
+   font-size: 2.5rem;
+    border-bottom: 2px solid #c7c0b0;  
+    padding-bottom: 10px;  
+}  
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  
+    justify-content: center;
+}
+
+.skills-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill {
+    /* background-color: #6c6969;   */
+    /* opacity: 0; */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */  
+    backdrop-filter: blur(10px); /* Blurs the background */  
+    border-radius: 10px; /* Optional: rounded corners */  
+    padding: 20px; /* Optional: padding */  
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5); /* Optional: shadow effect */  
+    padding: 20px;  
+    /* border-radius: 5px;   */
+    text-align: center;
+    flex: 1;
+}
+
+.skill img {
+    width: 60px;
+    /* height: 60px; */
+}
+.skill1 img{
+    height: 40px;
+}
+
+.socials img{
+    width: 30px;
+}
+.portfolio-item img{
+    width: 150px;
+   
+}
+
+@media screen and (max-width: 900px) {
+    .skill {
+        flex: 1 1 calc(50% - 20px); /* Adjust for 2 skills per row on smaller screens */
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .skill {
+        flex: 1 1 calc(100% - 20px); /* 1 skill per row on very small screens */
+    }
+}
+
+/*  */
+  
+
+
+
+.navbar a:hover {  
+    background-color: #ddd; 
+    /* border: 5px solid #ddd;  */
+    border-radius: 5px ;
+    color: black;  
+    background-image: linear-gradient(to right, #000000 0%, #434343  51%, #000000  100%);
+    /* margin: 10px; */
+    padding: 10px 20px;
+    text-align: center;
+    /* text-transform: uppercase; */
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 10px #eee;
+    /* border-radius: 10px; */
+}
+
+@media screen and (max-width: 600px) {  
+    .navbar ul {  
+        flex-direction: column; /* Stack items vertically */  
+    }  
+}
+.glow:hover{
+    font-size: 30px;
+}
+.socials img:hover{
+    width: 40px;
+}
